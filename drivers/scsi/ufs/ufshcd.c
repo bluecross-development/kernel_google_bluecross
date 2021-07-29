@@ -341,6 +341,11 @@ update_io_stat(struct ufs_hba *hba, int tag, int is_start)
 }
 
 #else
+
+static void ufshcd_event_record(struct scsi_cmnd *cmd, enum mm_event_type event)
+{
+}
+
 static inline void ufshcd_update_tag_stats(struct ufs_hba *hba, int tag)
 {
 }
