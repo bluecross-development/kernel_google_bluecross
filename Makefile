@@ -737,11 +737,7 @@ DISABLE_SCS	:= -fno-sanitize=shadow-call-stack
 export DISABLE_SCS
 endif
 
-ifdef CONFIG_CC_OPTIMIZE_FOR_SIZE
-KBUILD_CFLAGS   += -Os
-else
-KBUILD_CFLAGS   += -O2
-endif
+KBUILD_CFLAGS   += -O3
 
 ifdef CONFIG_CC_WERROR
 KBUILD_CFLAGS	+= -Werror
