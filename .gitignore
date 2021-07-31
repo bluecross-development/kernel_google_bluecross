@@ -118,3 +118,9 @@ all.config
 
 # fetched Android config fragments
 kernel/configs/android-*.cfg
+
+# ctwoon
+AnyKernel3/
+build.sh
+log
+out/
