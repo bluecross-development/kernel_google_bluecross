@@ -4,3 +4,15 @@
 [submodule "scripts/ufdt/libufdt"]
 	path = scripts/ufdt/libufdt
 	url = https://android.googlesource.com/platform/system/libufdt
+[submodule "techpack/audio"]
+	path = techpack/audio
+	url = https://github.com/bluecross-development/techpack_audio
+[submodule "drivers/staging/fw-api"]
+	path = drivers/staging/fw-api
+	url = https://github.com/bluecross-development/drivers_staging_fw-api
+[submodule "drivers/staging/qca-wifi-host-cmn"]
+	path = drivers/staging/qca-wifi-host-cmn
+	url = https://github.com/bluecross-development/drivers_staging_qca-wfi-host-cmn
+[submodule "drivers/staging/qcacld-3.0"]
+	path = drivers/staging/qcacld-3.0
+	url = https://github.com/bluecross-development/drivers_staging_qcacld-3.0
